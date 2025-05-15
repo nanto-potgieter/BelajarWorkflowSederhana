@@ -1,0 +1,9 @@
+name : Workflow Hello
+on : [push, pull_request, workflow_dispatch]
+jobs : 
+  say-hello :
+    runs-on : ubuntu-lates
+    steps :
+      - name : "Say Hello"
+        run : echo "Hello World"
+      - run : echo "Selesai"
