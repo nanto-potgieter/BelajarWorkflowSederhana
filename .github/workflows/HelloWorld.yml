@@ -6,4 +6,5 @@ jobs :
     steps :
       - name : "Say Hello"
         run : echo "Hello World"
-      - run : echo "Selesai"
+      - name : "Say Goodbye"
+        run : echo "Selesai"
